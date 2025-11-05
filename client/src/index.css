@@ -1,0 +1,40 @@
+ @import "tailwindcss";
+
+body { margin: 0; font-family: Inter, system-ui, Arial, sans-serif; background: var(--bg); color: #0f172a; }
+
+.bg-white { background: #ffffff; }
+.text-slate-500 { color: #6b7280; }
+.text-slate-600 { color: #475569; }
+.text-slate-900 { color: #0f172a; }
+.text-green-700 { color: #047857; }
+.text-red-700 { color: #b91c1c; }
+
+.p-2 { padding: .5rem; }
+.p-4 { padding: 1rem; }
+.mt-1 { margin-top: .25rem; }
+.mt-2 { margin-top: .5rem; }
+.mt-4 { margin-top: 1rem; }
+.mb-2 { margin-bottom: .5rem; }
+.mb-4 { margin-bottom: 1rem; }
+
+.rounded { border-radius: .5rem; }
+.shadow { box-shadow: 0 1px 3px rgba(2,6,23,0.08); }
+.border { border: 1px solid #e6edf3; }
+.max-w-4xl { max-width: 56rem; margin-left: auto; margin-right: auto; }
+.mx-auto { margin-left: auto; margin-right: auto; }
+
+.grid { display: grid; }
+.grid-cols-1 { grid-template-columns: 1fr; }
+.md\\:grid-cols-3 { grid-template-columns: repeat(3, 1fr); }
+.gap-4 { gap: 1rem; }
+.flex { display: flex; }
+.items-center { align-items: center; }
+.justify-between { justify-content: space-between; }
+.text-center { text-align: center; }
+.text-lg { font-size: 1.125rem; }
+.text-xl { font-size: 1.25rem; }
+.font-semibold { font-weight: 600; }
+.font-bold { font-weight: 700; }
+
+button { cursor: pointer; border: none; }
+input { border: 1px solid #e6edf3; border-radius: .375rem; padding: .5rem; }
